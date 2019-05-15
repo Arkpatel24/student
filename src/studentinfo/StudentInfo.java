@@ -25,7 +25,7 @@ public class StudentInfo {
         s1.setName(input.nextLine());
         System.out.println("Fisrt student is "+s1.getName());
         
-        s2.setName("AKSHAY");
+        s2.setName("kalp");
         System.out.println("Second student is "+s2.getName());
         
         list[0]=s1;
