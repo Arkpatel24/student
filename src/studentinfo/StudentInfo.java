@@ -25,8 +25,15 @@ public class StudentInfo {
         s1.setName(input.nextLine());
         System.out.println("Fisrt student is "+s1.getName());
         
+        System.out.print("Enter first student id:");
+        s1.setStudid(input.nextInt());
+        System.out.println("Fisrt student id is "+s1.getStudid());
+        
         s2.setName("kalp");
         System.out.println("Second student is "+s2.getName());
+        
+        s2.setStudid(22);
+        System.out.println("Second student is "+s2.getStudid());
         
         list[0]=s1;
         list[1]=s2;
